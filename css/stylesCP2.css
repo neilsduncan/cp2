@@ -1,0 +1,113 @@
+body {
+	font: 12px/30px Georgia, serif;
+  background-color: #cdcdcd;
+  display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+#temp {
+	display: inline-flex;
+	flex-direction: row;
+}
+#pict {
+	width: 60px;
+	align-self: center;
+}
+#resText{
+	text-align: center;
+}
+
+footer {
+	display: block;
+	width: 100%;
+	background-color: #999;
+	font-size: 6px;
+	margin-top: 6px;
+	padding-top: 0px;
+	padding-left: 12px;
+}
+
+.killMe {
+	padding-left: 8px;
+}
+
+.introText {
+	text-align: center;
+}
+
+.imputs {
+	display: flex;
+	flex-direction: row;
+}
+
+.buttons{
+	width: 30%;
+	display: flex;
+	align-self: center;
+	padding-left: 10%;
+}
+
+#catagoryInput {
+	padding-left: 8px;
+	background-color: #dedede;
+}
+
+#catagorySubmit {
+	border-radius: 8px;
+}
+
+#Submit {
+	border-radius: 8px;
+}
+
+.catagoryImput{
+		width: 60%;
+		align-content: center;
+	}
+
+.mainBody {
+	margin: 5%;
+	margin-top: 0%;
+	background-color: #ababab;
+	}
+
+#results {
+	display: flex;
+	margin: 5%;
+	background-color: #dedede;
+	text-align: center;
+}
+
+#killMe {
+	text-align: center;
+	padding-left: 12px;
+}
+
+.responsive {
+	width: 100%;
+	height: auto;
+}
+
+@media only screen and (max-width: 400px){
+	.imputs {
+		display: block;
+	}
+	.catagoryImput{
+		display: block;
+		width: 100%;
+		padding-left: 10%;
+		padding-right: 10%;
+	}
+	.buttons{
+		width: 100%;
+		display: flex;
+		align-self: center;
+		padding-left: 10%;
+	}
+	#catagoryInput {
+		padding-left: 8px;
+		background-color: #dedede;
+		width: 120px;
+	}
+}
